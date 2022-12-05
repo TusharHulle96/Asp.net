@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scratch.Api", "Scratch.Api.csproj", "{834011C0-7ABD-439F-A696-2D8E8D59D257}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{834011C0-7ABD-439F-A696-2D8E8D59D257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{834011C0-7ABD-439F-A696-2D8E8D59D257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{834011C0-7ABD-439F-A696-2D8E8D59D257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{834011C0-7ABD-439F-A696-2D8E8D59D257}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8434CE51-E2B2-4A8C-BB2B-ECD3333D18ED}
+	EndGlobalSection
+EndGlobal
