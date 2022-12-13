@@ -1,4 +1,4 @@
-namespace Scratch.Api
+namespace ScratchDbContext.Api
 {
     public class WeatherForecast
     {
