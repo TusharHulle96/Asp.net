@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Scratch.Api.Data;
-     
+using Scratch.Api.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -16,6 +16,10 @@ builder.Services.AddDbContext<NzWalksDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("NzWalks"));
 });
 
+builder.Services.AddScoped<IRegionRepository, RegionRepository>();
+
+builder.Services.AddAutoMapper(typeof(Program).Assembly);
+  
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Scratch.Api.Models.Domain;
-using ScratchDbContext.Api.Models.Domain;
+//using ScratchDbContext.Api.Models.Domain;
 
 namespace Scratch.Api.Data
 {

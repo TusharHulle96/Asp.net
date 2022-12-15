@@ -1,24 +1,23 @@
-﻿namespace ScratchDbContext.Api.Models.Domain
+﻿namespace Scratch.Api.Models.Domain
 {
     public class Region
     {
-        public Guid Id { get; set; }
+        public Guid Id  { get; set; }
 
-        public string Code { get; set; }
+        public String Code { get; set; }
 
         public String Name { get; set; }
 
         public double Area { get; set; }
 
         public double Lat { get; set; }
+        
+        public double Long { get; set; }
 
-        public double Long { get; set; }    
+        public  long Population { get; set; }
 
-        public long Population  { get; set; }   
+        //Navigation Property
 
-        //Navigation Property 
-
-        public IEnumerable<Walk> Walks { get; set; } 
-
+        public IEnumerable<Walk>Walks { get; set; }
     }
 }
